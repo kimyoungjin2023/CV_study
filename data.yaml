@@ -1,0 +1,15 @@
+# dataset root directory
+path: C:/Users/kimyo/datasets
+
+# train/val/test image directories (path 기준 상대경로)
+train: images/train
+val: images/val
+test: images/test   # 없으면 삭제 가능
+
+# number of classes
+nc: 2
+
+# class names
+names:
+  0: Smile
+  1: angry
